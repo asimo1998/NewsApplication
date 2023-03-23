@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_details_article"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/orange"
+        android:gravity="center|left"
+        android:paddingLeft="8dp"
+        android:text="B-NEWS"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+<ScrollView
+    android:layout_below="@+id/title_details_article"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        tools:ignore="WebViewLayout"
+        android:clickable="false"
+        android:focusable="false"/>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/orange"
+        android:gravity="center|left"
+        android:paddingLeft="8dp"
+        android:text="B-NEWS"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_container"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/search_view_border"
+        android:theme="@style/AppTheme"
+        app:defaultQueryHint="Search..."
+        app:iconifiedByDefault="false"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/category_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_news"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_category_news" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/category_news"
+        android:padding="10dp"
+        tools:listitem="@layout/itemview_headlines" />
+
+</RelativeLayout>

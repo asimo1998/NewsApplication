@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1605" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/border_category.xml" value="0.14" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_baseline_do_not_disturb_alt_24.xml" value="0.1605" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1605" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/img_borders.xml" value="0.1565" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/drawable/search_view_border.xml" value="0.162" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/activity_details_news.xml" value="0.22" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/details_article.xml" value="0.22" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/item_category_news.xml" value="0.2" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/item_headlines.xml" value="0.2" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/item_hedlines.xml" value="0.125" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/item_news.xml" value="0.25" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/layout/itemview_headlines.xml" value="0.1" />
+        <entry key="..\:/Users/DeLL/AndroidStudioProjects/NewsApplication/app/src/main/res/mipmap-anydpi-v26/ic_new_ver_once.xml" value="0.1495" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
